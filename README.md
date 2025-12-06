@@ -17,24 +17,17 @@ Single-Photon Avalanche Diodes (SPADs) offer extreme low-light sensitivity but s
 * **H100 Optimization:** Addressed system bottlenecks (I/O latency & VRAM bandwidth) using multi-threaded prefetching and mixed-precision (AMP) training.
 * **Physics-Based:** Designed to handle extreme shot noise inherent to photon counting, outperforming Gaussian-based heuristics.
 
-![Result Preview](https://via.placeholder.com/800x200?text=Place+Your+Result+Comparison+Image+Here)
-*(Figure: Comparison between Raw SPAD Input, Baseline, and Our Reconstruction)*
-% -------------------------------------------------------------------
-\section{Experiments and Results}
-\subsection{Quantitative Performance}
-\begin{table}[h!]
-\centering
-\begin{tabular}{lccc}
-\hline
-\textbf{Model Stage} & \textbf{PSNR (dB)} & \textbf{SSIM} & \textbf{L1 Loss} \
-\hline
-Stage 1 (Base) & 23.77 & 0.6867 & 0.0487 \
-Stage 2 (EMA) & 30.56 & 0.8734 & 0.0182 \
-Stage 2 (EMA2 Hybrid) & \textbf{31.45} & \textbf{0.8807} & \textbf{0.0165} \
-\hline
-\end{tabular}
-\end{table}
----
+## 📊 Quantitative Performance
+
+The following table summarizes reconstruction performance across different stages of our cascaded model:
+
+| **Model Stage**          | **PSNR (dB)** | **SSIM**   | **L1 Loss** |
+|-------------------------|---------------|------------|-------------|
+| Stage 1 (Base)          | 23.77         | 0.6867     | 0.0487      |
+| Stage 2 (EMA)           | 30.56         | 0.8734     | 0.0182      |
+| **Stage 2 (EMA2 Hybrid)** | **31.45**     | **0.8807** | **0.0165**  |
+
+*Table: Quantitative evaluation of reconstruction quality across model stages.*
 
 ## 💾 Downloads (Models & Dataset)
 
