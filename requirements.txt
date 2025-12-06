@@ -1,0 +1,23 @@
+# Core deep learning framework
+torch
+torchvision
+torchmetrics
+
+# Numerical and scientific computing
+numpy
+pandas
+scikit-image
+
+# Image processing
+opencv-python-headless
+Pillow
+
+# Utilities
+tqdm
+matplotlib
+
+# NOTE:
+# This project requires:
+# - Python 3.8+
+# - CUDA-enabled GPU recommended (H100, A100, V100, etc.)
+# - PyTorch with matching CUDA version
