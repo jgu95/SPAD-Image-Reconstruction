@@ -19,7 +19,21 @@ Single-Photon Avalanche Diodes (SPADs) offer extreme low-light sensitivity but s
 
 ![Result Preview](https://via.placeholder.com/800x200?text=Place+Your+Result+Comparison+Image+Here)
 *(Figure: Comparison between Raw SPAD Input, Baseline, and Our Reconstruction)*
-
+% -------------------------------------------------------------------
+\section{Experiments and Results}
+\subsection{Quantitative Performance}
+\begin{table}[h!]
+\centering
+\begin{tabular}{lccc}
+\hline
+\textbf{Model Stage} & \textbf{PSNR (dB)} & \textbf{SSIM} & \textbf{L1 Loss} \
+\hline
+Stage 1 (Base) & 23.77 & 0.6867 & 0.0487 \
+Stage 2 (EMA) & 30.56 & 0.8734 & 0.0182 \
+Stage 2 (EMA2 Hybrid) & \textbf{31.45} & \textbf{0.8807} & \textbf{0.0165} \
+\hline
+\end{tabular}
+\end{table}
 ---
 
 ## 💾 Downloads (Models & Dataset)
@@ -44,7 +58,7 @@ SPAD-Image-Reconstruction/
 ├── data/                  # Place unzipped dataset here
 ├── model_arch.py          # SE-ResUNet architecture definition
 ├── utils.py               # Raw SPAD decoding & preprocessing logic
-├── demo.py                # Inference demo script
+├── inference.py                # Inference demo script
 ├── requirements.txt       # Python dependencies
 ├── Technical_Report.pdf   # Full project documentation
 └── README.md
