@@ -35,9 +35,9 @@ Due to GitHub's file size limits, the pre-trained weights and the full training 
 
 | File Name | Description | Size | Download Link |
 | :--- | :--- | :--- | :--- |
-| **`stage1_coarse_ema.pth`** | **Stage 1 Model**: Coarse reconstruction & noise suppression | ~125 MB | https://drive.google.com/file/d/13d5Eit6cy2E1sysZ36UIwunSa3d18ghJ/view?usp=sharing |
-| **`stage2_refine_ema.pth`** | **Stage 2 Model**: Fine texture refinement (EMA optimized) | ~125 MB | https://drive.google.com/file/d/17F-JVEiBGSgoX6X0QIYylzxXZA6DWf3p/view?usp=sharing |
-| **`spad_trainset.zip`** | **Training Data**: Pre-processed SPAD burst sequences | ~1.6 GB | https://drive.google.com/file/d/1BpLto98TPUqskZyphN-FK_V4sCl8AbMl/view?usp=sharing |
+| **`stage1_coarse_ema.pth`** | **Stage 1 Model**: Coarse reconstruction & noise suppression | ~125 MB | https://drive.google.com/file/d/1rf8euHsJbJ6rZwOGRfNRaU4RlsbdpTTh/view?usp=sharing |
+| **`stage2_refine_ema.pth`** | **Stage 2 Model**: Fine texture refinement (EMA optimized) | ~125 MB | https://drive.google.com/file/d/16FkwpZ5Wv3BBlBhkaDcFatAeTotMrcou/view?usp=sharing |
+| **`spad_trainset.zip`** | **Training Data**: Pre-processed SPAD burst sequences | ~1.6 GB | https://drive.google.com/file/d/1aWP_7SriHOhxwqJKU1KwfJQURLvpPbRf/view?usp=sharing |
 
 ---
 
